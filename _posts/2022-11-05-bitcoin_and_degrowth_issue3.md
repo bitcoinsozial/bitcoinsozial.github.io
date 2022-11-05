@@ -10,7 +10,7 @@ tags: [featured]
 
 _Einige Gedanken zur Verbindung zwischen Bitcoin und Elementen der "Degrowth"-Bewegung, die argumentiert, dass das unaufhörliche Wirtschaftswachstum uns auf einen nicht nachhaltigen und ökologisch zerstörerischen Weg führt._
 
-Viele Menschen die sich mit Bitcoin beschäftigen sind mit Keynes vertraut, und besonders Rothbard-nahe Libertäre mögen Keynes nicht. Wie John Nash feststellte, hatte Keynes viele Seiten und nicht alles, was er schrieb, war falsch.
+Viele Menschen die sich mit Bitcoin beschäftigen sind mit Keynes vertraut, und besonders Rothbard-nahe Libertäre mögen Keynes nicht. [Wie John Nash feststellte](http://personal.psu.edu/gjb6/nash/money.pdf), hatte Keynes viele Seiten und nicht alles, was er schrieb, war falsch.
 
 Heute besteht ein Interesse daran, die wirtschaftlichen Ideen von Keynes wiederzubeleben und zu aktualisieren, um die Fehler eines Systems zu beheben, das wirtschaftliche, klimatische und ökologische Krisen verursacht hat. Die führende internationale links-progressive Organisation "Progressive International", die von Yanis Varoufakis gegründet wurde, ist ein wichtiger Befürworter der grün-keynesianischen Wirtschaftslehre.
 
