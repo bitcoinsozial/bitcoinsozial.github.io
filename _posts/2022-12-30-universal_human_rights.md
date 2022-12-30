@@ -120,7 +120,7 @@ Die Gründe für diese enorme Ungleichheit sind vielfältig. Kolonialismus war s
 
 Nach dem Ersten Weltkrieg verblasste diese britische Vormachtstellung. Der zweite Weltkrieg schuf einen neuen Hegemon. Die USA hatten den Krieg gewonnen, verfügten über die stärkste Wirtschaft und kontrollierten [praktisch alle Goldreserven der Welt](https://www.imf.org/external/np/exr/center/mm/eng/mm_dr_01.htm#:~:text=By%201947%2C%20the%20United%20States,to%20pay%20for%20the%20war.). Während des Krieges schickten [viele europäische Länder ihre Goldreserven in die USA](https://en.wikipedia.org/wiki/Bretton_Woods_system), um sie vor dem Raub durch die Nazis zu schützen.
 
-Wie der Finanzanalyst Lyn Alden [beschreibt](https://www.lynalden.com/fraying-petrodollar-system/):
+Wie die Finanzanalystin Lyn Alden [beschreibt](https://www.lynalden.com/fraying-petrodollar-system/):
 
 >"Mit dem Bretton-Woods-System und dem darauf folgenden Petrodollar-System erlangten die Vereinigten Staaten eine nahezu globale Kontrolle über das internationale Geldsystem. Frühere Imperiumswährungen hatten nie eine so umfassende finanzielle Kontrolle über die Welt erlangt und waren daher nie echte "globale Reservewährungen", sondern nur "weithin anerkannte und dominierende" Währungen...
 > 
