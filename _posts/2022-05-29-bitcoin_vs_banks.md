@@ -5,7 +5,7 @@ title: "Bitcoin versus Banken: Was ist besser für den Planeten?"
 categories: [ökologie]
 image: assets/images/2022-05-25-bitcoin_vs_banks.jpg
 imageCaption: "Die Investitionen des US-Bankensektors sind für fast 2 Milliarden Tonnen Kohlendioxidemissionen im Jahr 2020 verantwortlich. Werden Sie Ihre eigene Bank, dem Planeten zuliebe, und verwenden Sie Bitcoin. Bildnachweis: Markus Spiske"
-tags: [featured]
+tags: []
 ---
 
 In einem kürzlich [veröffentlichten Report](https://static1.squarespace.com/static/6281708e8ff18c23842b1d0b/t/6283204b3556a5125ce13b37/1652760661661/The+Carbon+Bankroll+Report+%285-17-2022%29.pdf) wurde berichtet, dass indirekte CO2-Emissionen aus der Menge an Bargeld und Investitionen von Unternehmen im Bankensektor der Vereinigten Staaten deren Bemühungen zur Dekarbonisierung ihrer Geschäftstätigkeiten erheblich beeinträchtigen. Wenn man die Bankenbranche mit Bitcoin vergleicht, was ist dann besser für den Planeten?

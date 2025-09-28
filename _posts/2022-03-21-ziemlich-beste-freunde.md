@@ -4,7 +4,7 @@ author: weezel
 title: "Bitcoin und die Energiewende – Ziemlich beste Freunde"
 categories: [wirtschaft, umwelt, politik]
 image: assets/images/2022-03-21-ziemlich-beste-freunde.jpg
-tags: [featured]
+tags: []
 ---
 
 Die Klimakrise ist momentan durch den Krieg in der Ukraine medial in den Hintergrund gerückt. Die beiden Themen haben aber eine gemeinsame Schnittmenge: **Der Wille zur möglichst schnellen Energiewende**. Man stelle sich vor jemand dreht den Gas- oder Ölhahn zu und niemanden in der EU interessiert es. Denn Europas Energieversorgung besteht schon zu 100% aus Erneuerbaren und die EU kann ohne Abhängigkeiten politisch frei agieren.

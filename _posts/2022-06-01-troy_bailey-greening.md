@@ -4,7 +4,7 @@ author: [troycross, andrewbailey]
 title: "Ökologisierung von Bitcoin mit Anreizkompensationen"
 categories: [ökologie, mining]
 image: assets/images/2022-06-01-troy_bailey-greening/title.jpg
-tags: [featured]
+tags: []
 ---
 
 ## Zusammenfassung
