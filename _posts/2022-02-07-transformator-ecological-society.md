@@ -4,7 +4,7 @@ author: bitcoinersforfuture
 title: "Bitcoin – Transformer to an Ecological Society"
 categories: [ökologie, englisch]
 image: assets/images/2022-02-07-transformator-oekologische-gesellschaft.jpg
-tags: [featured]
+tags: []
 published: true
 ---
 

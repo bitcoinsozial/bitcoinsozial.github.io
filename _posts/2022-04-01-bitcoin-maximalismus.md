@@ -4,7 +4,7 @@ author: vitalik
 title: "Zur Verteidigung des Bitcoin Maximalismus"
 categories: [kultur]
 image: assets/images/2022-04-01-bitcoin-maximalismus.png
-tags: [featured]
+tags: []
 ---
 
 _Bemerkung der Redaktion: Dieser Beitrag wurde im englischen Original vom Ethereum-Gründer Vitalik Buterin verfasst und am 1. April 2022 auf seinem [persönlichen Blog](https://vitalik.ca/general/2022/04/01/maximalist.html) veröffentlicht._

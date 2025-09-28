@@ -5,7 +5,7 @@ title: "Der Weg zu finanzieller Freiheit in Afghanistan"
 categories: [gesellschaft, wirtschaft]
 image: assets/images/2022-06-09-der-weg-zu-finanzieller-freiheit-in-afghanistan/1.jpg
 imageCaption: "Bild von Mohammad Husaini"
-tags: [featured]
+tags: []
 ---
 
 Roya Mahboob, die Gründerin von Citadel – eines der ersten Unternehmen, das seit 2013 Bitcoin in Afghanistan förderte, - vertritt die Meinung, dass ihre Heimat die digitale Währung nun mehr denn je braucht. 

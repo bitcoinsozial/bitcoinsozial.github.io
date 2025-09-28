@@ -4,7 +4,7 @@ author: tommaxwell
 title: "Die Cantillon-Oligarchie: Warum Linke Bitcoin eigentlich lieben sollten"
 categories: [wirtschaft, politik]
 image: assets/images/protest.jpg
-tags: [featured]
+tags: []
 ---
 
 Die Ungleichheit von Vermögen und Einkommen ist so groß wie nie zuvor. In den letzten 30 Jahren ist der Anteil des reichsten 1% der Amerikaner am Gesamtnettovermögen um 8% auf 31,4% gestiegen, während die unteren 50% nur 2% besitzen. Das sind etwa 2% weniger Vermögen als noch [vor drei Jahrzehnten](https://fred.stlouisfed.org/graph/?g=EHu6). Die Entwicklung der Löhne von 1979 bis 2019 zeigt ein noch hoffnungsloseres Bild. Nach Angaben des Economic Policy Institute - einer unabhängigen, gemeinnützigen, gewerkschaftlich organisierten Denkfabrik - sind die Jahreslöhne der obersten 1% und der obersten 0,1% der Verdiener in den letzten 40 Jahren um 160,3% bzw. 345,2% gestiegen. Die unteren 90% aller Arbeitnehmer haben [im gleichen Zeitraum](https://www.epi.org/blog/wages-for-the-top-1-skyrocketed-160-since-1979-while-the-share-of-wages-for-the-bottom-90-shrunk-time-to-remake-wage-pattern-with-economic-policies-that-generate-robust-wage-growth-for-vast-majority/) nur einen Anstieg von 26% erfahren.

@@ -5,7 +5,7 @@ title: "Radikaler Systemwechsel: Bitcoin & Degrowth - Ausgabe #2"
 categories: [degrowth]
 image: assets/images/2022-05-20-bitcoin_and_degrowth_issue2.jpg
 imageCaption: "Bitcoin und Degrowth verfolgen die gleichen Ziele. Lokalismus, das Ende des Schuldengeldes und ein bescheidenes Leben. Bildnachweis: Palu Malerba"
-tags: [featured]
+tags: []
 ---
 
 _Einige Gedanken zur Verbindung zwischen Bitcoin und Elementen der "Degrowth"-Bewegung, die argumentiert, dass das unaufhörliche Wirtschaftswachstum den Planeten zerstört._

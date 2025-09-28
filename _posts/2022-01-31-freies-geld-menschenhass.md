@@ -4,7 +4,7 @@ author: troycross
 title: "Wenn freies Geld für Menschenhass verwendet wird"
 categories: [gesellschaft, rassismus]
 image: assets/images/bitcoin-ungebaendigt.png
-tags: [featured]
+tags: []
 ---
 
 Die technologische Innovation von Bitcoin kann von jedem genutzt werden, auch von Fanatikern; aber das sollte nicht den Ruf des gesamten Netzwerks beschmutzen.

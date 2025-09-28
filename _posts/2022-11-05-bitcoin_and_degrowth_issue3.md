@@ -5,7 +5,7 @@ title: "Radikaler Systemwechsel: Bitcoin & Degrowth - Ausgabe #3"
 categories: [degrowth]
 image: assets/images/2022-11-05-bitcoin_and_degrowth_issue3/1.jpg
 imageCaption: "Bitcoin und Degrowth verfolgen die gleichen Ziele. Lokalismus, das Ende des Schuldengeldes und ein bescheidenes Leben. Bildnachweis: John Guccione"
-tags: [featured]
+tags: []
 ---
 
 _Einige Gedanken zur Verbindung zwischen Bitcoin und Elementen der "Degrowth"-Bewegung, die argumentiert, dass das unaufhörliche Wirtschaftswachstum uns auf einen nicht nachhaltigen und ökologisch zerstörerischen Weg führt._

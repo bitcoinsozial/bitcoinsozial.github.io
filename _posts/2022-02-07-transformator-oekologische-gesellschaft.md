@@ -4,7 +4,7 @@ author: bitcoinersforfuture
 title: "Bitcoin – Transformator zu einer ökologischen Gesellschaft"
 categories: [ökologie]
 image: assets/images/2022-02-07-transformator-oekologische-gesellschaft.jpg
-tags: [featured]
+tags: []
 ---
 
 Seit Jahrzehnten ist ein zunehmendes Auseinanderklaffen der Arm-Reich-Schere bekannt und für viele auch spürbar. Selbst die Klimakrise, die als nächstes Symptom eines erkrankten Geldsystems gewertet werden kann, wird überwiegend versucht symptomatisch zu therapieren.
