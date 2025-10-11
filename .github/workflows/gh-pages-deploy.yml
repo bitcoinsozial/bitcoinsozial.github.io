@@ -1,68 +1,58 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Deploy Jekyll to GitHub Pages
 
 on:
   push:
-    branches:
-      - master
-
+    branches: [master]
   schedule:
     - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
-  github-pages:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: GitHub Checkout
-        uses: actions/checkout@v2
-      - name: Bundler Cache
-        uses: actions/cache@v2
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby with bundler cache
+        uses: ruby/setup-ruby@v1
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-      - name: Install libvips via apt
-        if: runner.os == 'Linux'
+          ruby-version: "3.3"
+          bundler-cache: true
+
+       #Uncomment only if your site needs libvips or ImageMagick
+      - name: Install image libs
         run: |
-          # sudo -E apt-get update -qq -o Acquire::Retries=3
-          sudo -E apt-get install -y libvips imagemagick libvips-tools
-          # echo "LD_LIBRARY_PATH=/usr/lib/" >> $GITHUB_ENV
-      - name: Build Jeckyll site
-        run: |
-          echo "Installing bundler"
-          sudo gem install bundler
-          echo "Installing gems..."
-          bundle config path vendor/bundle
-          bundle install
-          echo "Building Jekyll site..."
-          JEKYLL_ENV=production NODE_ENV=production bundle exec jekyll build
-      - name: Publish page
-        run: |
-          set -e
-          DEST="${JEKYLL_DESTINATION:-_site}"
-          REPO="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          BRANCH="gh-pages"
-          BUNDLE_BUILD__SASSC=--disable-march-tune-native
-          echo "Publishing..."
-          cd ${DEST}
-          git init
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add .
-          git commit -m "published by GitHub Actions"
-          git push --force ${REPO} master:${BRANCH}
+          sudo apt-get update
+          sudo apt-get install -y libvips libvips-tools imagemagick
+
+      - name: Build site
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-      # - name: Build & Deploy to GitHub Pages
-      #   uses: joshlarsen/jekyll4-deploy-gh-pages@master
-      #   env:
-      #     LD_LIBRARY_PATH: /usr/lib/
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-      #     GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-      # - name: Build & Deploy to GitHub Pages
-      #   uses: jeffreytse/jekyll-deploy-action@master
-      #   with:
-      #     provider: "github"
-      #     token: ${{ secrets.GITHUB_TOKEN }}
+          JEKYLL_ENV: production
+          NODE_ENV: production
+        run: bundle exec jekyll build --trace
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
