@@ -65,6 +65,8 @@ GEM
     mime-types-data (3.2022.0105)
     nokogiri (1.13.1-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.1-x86_64-linux)
+      racc (~> 1.4)
     objective_elements (1.1.2)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -88,6 +90,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-linux-musl
 
 DEPENDENCIES
   jekyll-feed
@@ -101,7 +104,7 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 RUBY VERSION
-   ruby 3.0.0p0
+   ruby 3.1.1p18
 
 BUNDLED WITH
    2.3.6
